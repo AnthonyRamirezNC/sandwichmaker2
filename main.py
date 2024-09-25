@@ -49,15 +49,15 @@ def main():
     while(userInput != "off"):
         userInput = input("What would you like? (small/ medium/ large/ off/ report): ")
         if(userInput == "small"):
-            processInput(userInput)
+            processInput(cashier_instance, sandwich_maker_instance, userInput)
 
         elif(userInput == "medium"):
             #check if resources are sufficient
-            processInput(userInput)
+            processInput(cashier_instance, sandwich_maker_instance, userInput)
 
         elif(userInput == "large"):
             #check if resources are sufficient
-            processInput(userInput)
+            processInput(cashier_instance, sandwich_maker_instance, userInput)
         
         elif(userInput == "report"):
             #check if resources are sufficient
